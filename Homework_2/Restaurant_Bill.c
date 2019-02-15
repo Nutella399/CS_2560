@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char **argv) {
+/*int main() {
 	float bill_price = 88.67;
 	float tax = 0.0675;
 	float tax_amount = bill_price * tax;
@@ -15,4 +15,4 @@ int main(int argc, char **argv) {
 	printf("Total Bill: %.4f\n",total_bill);
 
 	return 0;
-}
+}*/

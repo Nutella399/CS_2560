@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char **argv[]) {
+/*int main() {
 
 	int shares = 1000;
 	float price_purchase_share = 45.50;
@@ -21,4 +21,4 @@ int main(int argc, char **argv[]) {
 	printf("Joe made a profit of %.2f after all these activities.", total_profit);
 
 	return 0;
-}
+}*/
