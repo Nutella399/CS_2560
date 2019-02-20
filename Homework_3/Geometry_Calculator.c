@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-/*void error_message(int checker) {
+void error_message(int checker) {
 	if(checker <  0) {
 		printf("That isn't an answer.");
 	}
@@ -29,7 +29,7 @@ int main() {
 			printf("Please give me a radius:");
 			fflush(stdout);
 			scanf("%lf", &x);
-
+			error_message(x);
 			area = pi * (x*x);
 			printf("This is your area: %f", area);
 			break;
@@ -37,7 +37,8 @@ int main() {
 			printf("Please give me a length and width: ");
 			fflush(stdout);
 			scanf("%lf %lf", &x, &y);
-
+			error_message(x);
+			error_message(y);
 			area = x*y;
 			printf("This is your area: %f", area);
 			break;
@@ -45,7 +46,8 @@ int main() {
 			printf("Please give me a base and height: ");
 			fflush(stdout);
 			scanf("%lf %lf" , &x, &y);
-
+			error_message(x);
+			error_message(y);
 			area = x*y*.5;
 			printf("This is your area: %f", area);
 			break;
@@ -57,4 +59,4 @@ int main() {
 	}
 
 	return 0;
-}*/
+}

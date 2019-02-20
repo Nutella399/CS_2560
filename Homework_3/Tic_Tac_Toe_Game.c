@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print_array(char array[3][3]) {
+/*void print_array(char array[3][3]) {
 	for(int i =0; i < 3; i++) {
 			for(int j = 0; j < 3; j++) {
 				printf("%c", array[i][j]);
@@ -93,4 +93,4 @@ int main() {
 	}
 
 	return 0;
-}
+}*/
